@@ -70,3 +70,6 @@ hs_err_pid*
 
 target/*
 test-output/*
+
+# Do not save output file
+Output-File.xls

@@ -23,7 +23,7 @@ public class ApachePOITest {
 			InputStream fileB = new FileInputStream(cl.getResource("poi-example.xls").getPath());
 
 			// Get the file using basic File and relative path to directory
-			InputStream fileC = new FileInputStream(new File("src/main/resources/poi-example.xls"));
+			InputStream fileC = new FileInputStream(new File("src/test/resources/poi-example.xls"));
 
 			// Get the workbook instance for XLS file
 			HSSFWorkbook workbook = new HSSFWorkbook(fileA);
